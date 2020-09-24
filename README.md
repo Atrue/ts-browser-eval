@@ -1,5 +1,21 @@
 <h1 align="center">ts-browser-eval</h1>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/ts-browser-eval">
+    <img src="https://img.shields.io/npm/v/ts-browser-eval.svg" alt="npm version" >
+  </a>
+  <a href="https://packagephobia.now.sh/result?p=ts-browser-eval">
+    <img src="https://packagephobia.now.sh/badge?p=ts-browser-eval" alt="install size" >
+  </a>
+  <a href="https://github.com/Atrue/ts-browser-eval/blob/master/README.md">
+    <img src="https://img.shields.io/npm/l/ts-browser-eval.svg" alt="license">
+  </a>
+  <a href="https://david-dm.org/Atrue/ts-browser-eval">
+    <img src="https://david-dm.org/Atrue/ts-browser-eval/status.svg" alt="dependency status">
+  </a>
+</p>
+
+
 ### Overview
 Typescript compiler in the browser generating output chunks using rollup
 
@@ -8,7 +24,7 @@ Typescript compiler in the browser generating output chunks using rollup
 $ npm install typed-route
 ```
 
-###Quick example:
+### Quick example:
 ```js
 // lazy import for code splitting (package size ~2.5 MB)
 const compile = await import('ts-browser-eval');
