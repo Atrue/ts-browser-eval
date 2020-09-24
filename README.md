@@ -21,7 +21,7 @@ Typescript compiler in the browser generating output chunks using rollup
 
 ### Installation
 ```bash
-$ npm install typed-route
+$ npm install ts-browser-eval
 ```
 
 ### Quick example:
@@ -65,7 +65,7 @@ console.log(result[0].code);
 - entry point (the root filename)
 - tsOptions 
 (https://www.typescriptlang.org/docs/handbook/compiler-options.html 
-NOTE: some options doesn't work in the browser)
+NOTE: some options don't work in the browser)
 - outputOptions (rollup - https://rollupjs.org/guide/en/#outputoptions-object)
 
 ### Return
